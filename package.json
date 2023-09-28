@@ -1,11 +1,25 @@
 {
   "name": "project-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project-generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ameya Bavkar",
+  "license": "ISC",
+  "bin": {
+    "project-generator": "bin/project-gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ameya02/project-generator.git"
+  },
+  "keywords": [
+    "project-generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ameya02/project-generator/issues"
+  },
+  "homepage": "https://github.com/Ameya02/project-generator#readme"
 }
