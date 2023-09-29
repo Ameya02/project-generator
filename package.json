@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Ameya02/project-generator/issues"
   },
-  "homepage": "https://github.com/Ameya02/project-generator#readme"
+  "homepage": "https://github.com/Ameya02/project-generator#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  }
 }
